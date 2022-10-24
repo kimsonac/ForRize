@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6663145981282523125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6663145981282523130}
+  - component: {fileID: 6663145981282523131}
+  m_Layer: 0
+  m_Name: Level Clear Routine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6663145981282523130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6663145981282523125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6663145981282523131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6663145981282523125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb95beede2070b4493abda8ca3f230c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayInteractor: {fileID: 0}
+  teleportPoint: {fileID: 0}
+  pointLight: {fileID: 0}
+  endingUI: {fileID: 7187316636811853873, guid: c68c749117ee3f2439198d908964ea1c, type: 3}
+  animator: {fileID: 0}
+  audioSource: {fileID: 0}
+  elevatorOpen: {fileID: 8300000, guid: 4da84d90838f615488e142e1e8b39e92, type: 3}
+  elevatorMoving: {fileID: 8300000, guid: 28ed3fef8a2b4bf4ba82c333f929c6c6, type: 3}
+  stairSound: {fileID: 8300000, guid: aa63aeb1c424a084995e545e1831d902, type: 3}
+  clearSound: {fileID: 8300000, guid: 9c4631139298e4947973513c98f1fd87, type: 3}
